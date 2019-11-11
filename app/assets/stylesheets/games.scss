@@ -1,0 +1,56 @@
+// Place all the styles related to the games controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import url('https://fonts.googleapis.com/css?family=Cabin&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway:800&display=swap');
+
+body {
+  font-family: 'Cabin', sans-serif;
+  font-weight: 300;
+  padding: 50px 150px;
+  background-color: #212123;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  margin-bottom: 150px;
+  background-color: #F0FF80;
+  color: black;
+  border: 5px solid #DC4FE8;
+  box-shadow: 15px 10px 0px rgba(75, 172, 184, 0.9);
+  padding: 24px 12px;
+}
+h2 {
+  color: #FAFAFA;
+  margin-bottom: 50px;
+}
+.h2-score {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 150px;
+  margin-bottom: 150px;
+  background-color: #F0FF80;
+  color: #212123;
+  border: 5px solid #DC4FE8;
+  box-shadow: 15px 10px 0px rgba(75, 172, 184, 0.9);
+  padding: 100px;
+}
+.letters {
+  font-size: 90px;
+  list-style: none;
+  font-family: monospace;
+  li {
+    background-color: #DC4FE8;
+    color: white;
+    border: 5px solid #DFFF63;
+    box-shadow: 15px 10px 0px rgba(75, 172, 184, 0.9);
+    padding: 4px 12px;
+    margin-bottom: 10px;
+    display: inline;
+  }
+}
+
+.form-prefix {
+  margin-top: 2em;
+}
